@@ -4,7 +4,7 @@ const Footer = () => {
     return (
       <>
         {/* ========== FOOTER ========== */}
-        <footer className="footer bg-primary-dark border-top border-white-10">
+        <footer className="footer  border-top border-white-10" style={{ textAlign: 'center', background: '#007bff' }} >
           <div className="container">
             <div className="row align-items-md-end py-5">
               <div className="col-md">
