@@ -11,17 +11,13 @@ const About = () => (
       <div className="container content-space-1 content-space-md-2">
         {/* Card */}
         <div className="card card-lg">
-          {/* Header */}
-  
+          
           <div className="card-header bg-primary-dark position-relative overflow-hidden">
             <h1 className="card-title h2 text-white">Swahilipot FM</h1>
             <p className="card-text text-white">
               Frequency @ 91.7 fm (sauti ya vijana)
             </p>
           </div>
-          
-          {/* End Header */}
-          {/* Card Body */}
         </div>
       </div>
     {/* Description */}
@@ -369,6 +365,10 @@ const About = () => (
           min-height: 100vh; /* Ensures the content area takes up at least the full height of the viewport */
           box-sizing: border-box;
         }
+          .img-fluid{
+          position= "absolute"
+          width='100%'
+          }
       `}
       </style> 
     </>

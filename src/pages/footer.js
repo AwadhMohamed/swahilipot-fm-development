@@ -18,7 +18,7 @@ const Footer = () => {
                   <li className="list-inline-item">
                     <a
                       className="btn btn-icon btn-sm btn-soft-light rounded-circle"
-                      href="https://www.facebook.com/people/Swahilipot-Fm/100093582650835/" target="_blank"
+                      href="https://www.facebook.com/p/Swahilipot-Fm-100093582650835/"
                     >
                       <i className="bi bi-facebook" />
                     </a>
@@ -42,7 +42,7 @@ const Footer = () => {
                   <li className="list-inline-item">
                     <a
                       className="btn btn-icon btn-sm btn-soft-light rounded-circle"
-                      href="https://www.instagram.com/swahilipotfm?igsh=MTljN2JjdXNrN3lk" target="_blank"
+                      href="https://www.instagram.com/swahilipotfm/"
                     >
                       <i className="bi bi-instagram" />
                     </a>

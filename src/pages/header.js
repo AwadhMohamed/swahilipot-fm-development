@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
+
 const Header = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const togglePlayPause = () => {
@@ -95,7 +96,11 @@ const Header = () => {
           bottom: 0;
           left: 0;
           width: 100%;
+<<<<<<< HEAD
+          height: 2x;
+=======
           height: 1px;
+>>>>>>> bb6df9f93a1e6255d41b56d08a5ee57494337e78
           background-color: black;
           transform: scaleX(0);
         }
